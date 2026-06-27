@@ -1,6 +1,7 @@
 import { Package, Truck, Store, Zap, Target, Eye } from 'lucide-react';
 import PageHeader from '../components/PageHeader';
 import CTASection from '../components/CTASection';
+import CountUp from '../components/CountUp';
 import { stats } from '../siteConfig';
 import heroImg from '../assets/hero.png';
 
@@ -145,8 +146,14 @@ export default function About() {
         <div className="max-w-6xl mx-auto grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
           {stats.map((s) => (
             <div key={s.label}>
-              <div className="text-[#E8B500] text-3xl sm:text-5xl" style={playfair}>
-                {s.value}
+              <div className="text-3xl sm:text-5xl" style={playfair}>
+                <CountUp
+                  value={s.value}
+                  style={{
+                    color: '#34D058',
+                    textShadow: '0 0 12px rgba(52,208,88,0.75), 0 0 26px rgba(52,208,88,0.45)',
+                  }}
+                />
               </div>
               <div className="mt-2 text-white/60 text-xs sm:text-sm uppercase tracking-wide" style={{ ...barlow, fontWeight: 600, letterSpacing: '0.1em' }}>
                 {s.label}
