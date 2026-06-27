@@ -6,15 +6,14 @@
 
 export const site = {
   name: 'YaadFlexx',
-  tagline: 'Bringing the Yaard to Your Store',
+  tagline: 'Bringing the Yaad to Your Store',
 
   // TODO: replace with your real contact details
-  email: 'orders@yaadflexx.com',
-  phone: '(917) 000-0000',           // display version
-  phoneTel: '+19170000000',          // used for tel: links (digits + country code)
+  email: 'yaadflexxnyc@gmail.com',
+  phone: '(929) 373-9284',           // display version
+  phoneTel: '+19293739284',          // used for tel: links (digits + country code)
   whatsapp: '19170000000',           // used for wa.me links (digits, no symbols)
-  address: '000 Flatbush Ave, Brooklyn, NY 11200',
-  hours: 'Mon–Sat · 9am – 6pm',
+  hours: 'Mon–Sat · 9am – 9pm',
 
   // TODO: replace '#' with your real social profile URLs
   socials: {
@@ -50,7 +49,7 @@ export const boroughs = [
   },
   {
     name: 'Staten Island',
-    blurb: 'Scheduled routes island-wide.',
+    blurb: 'Scheduled routes statewide.',
     neighborhoods: 'St. George · Port Richmond · New Dorp · Tottenville',
   },
 ];

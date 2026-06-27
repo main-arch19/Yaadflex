@@ -27,10 +27,10 @@ export default function DeliveryAreas() {
         overline="Service Area"
         title={
           <>
-            We Deliver Across <span className="text-[#E8B500]">All 5 Boroughs</span>
+            We Deliver Across <span className="text-[#E8B500]">All 5 Boroughs & the Tri-State</span>
           </>
         }
-        subtitle="From Brooklyn to the Bronx, YaadFlexx keeps New York's shops stocked with authentic Caribbean beverages and goods — fast, reliable, island-wide."
+        subtitle="From Brooklyn to the Bronx, YaadFlexx keeps New York's shops stocked with authentic Caribbean beverages and goods — fast, reliable, statewide."
       />
 
       {/* Borough cards */}

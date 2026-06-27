@@ -10,7 +10,7 @@ type Props = {
 
 // Reusable green→dark gradient call-to-action band.
 export default function CTASection({
-  title = 'Ready to stock the Yaard?',
+  title = 'Ready to stock the Yaad?',
   subtitle = 'Order by noon, delivered by evening. Become a stockist and bring authentic Caribbean goods to your shelves.',
   primaryLabel = 'Become a Stockist',
   primaryTo = '/contact',

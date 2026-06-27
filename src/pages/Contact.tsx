@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Mail, Phone, MapPin, Clock, Send, MessageCircle } from 'lucide-react';
+import { Mail, Phone, Clock, Send, MessageCircle } from 'lucide-react';
 import PageHeader from '../components/PageHeader';
 import { site, boroughs } from '../siteConfig';
 import { InstagramIcon, FacebookIcon, TikTokIcon, WhatsAppIcon } from '../components/SocialIcons';
@@ -165,13 +165,6 @@ export default function Contact() {
                   </div>
                 </li>
                 <li className="flex items-start gap-3">
-                  <MapPin className="w-5 h-5 text-[#E8B500] mt-0.5 shrink-0" />
-                  <div>
-                    <div className="text-white/50 text-xs">Address</div>
-                    <span className="text-white text-sm">{site.address}</span>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
                   <Clock className="w-5 h-5 text-[#E8B500] mt-0.5 shrink-0" />
                   <div>
                     <div className="text-white/50 text-xs">Hours</div>
@@ -223,10 +216,10 @@ export default function Contact() {
               />
               <div className="relative">
                 <h3 className="text-white text-lg uppercase tracking-wide mb-2" style={oswald}>
-                  Serving all 5 boroughs
+                  Serving all 5 boroughs & the tri-state
                 </h3>
                 <p className="text-white/85 text-sm leading-relaxed" style={barlow}>
-                  Brooklyn · Queens · The Bronx · Manhattan · Staten Island
+                  Brooklyn · Queens · The Bronx · Manhattan · Staten Island · Tri-State Area
                 </p>
               </div>
             </div>

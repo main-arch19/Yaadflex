@@ -19,7 +19,7 @@ export default function Home() {
             className="font-black leading-[1.05] text-[1.6rem] sm:text-4xl md:text-5xl lg:text-[4.75rem] xl:text-[5.25rem] max-w-5xl"
             style={{ fontFamily: "'Playfair Display', Georgia, serif", fontWeight: 900, letterSpacing: '-0.03em' }}
           >
-            <span className="text-white">Bringing the Yaard</span>
+            <span className="text-white">Bringing the Yaad</span>
             <br className="hidden sm:block" />
             <span className="text-[#E8B500]"> to Your Store</span>
           </h1>
@@ -27,7 +27,7 @@ export default function Home() {
             className="mt-4 sm:mt-8 text-[#F5F5F0]/85 text-xs sm:text-base md:text-lg leading-relaxed max-w-md px-2"
             style={{ fontFamily: "'Barlow', sans-serif", fontWeight: 400 }}
           >
-            Authentic Caribbean beverages & goods — wholesale pricing for retailers, delivered island-wide.
+            Authentic Caribbean beverages & goods — wholesale pricing for retailers, delivered statewide.
           </p>
         </div>
 
@@ -36,7 +36,7 @@ export default function Home() {
           <div className="flex items-center gap-2 text-[#E8B500] mb-3">
             <Sparkles className="w-4 h-4" />
             <span className="text-sm" style={{ fontFamily: "'Oswald', sans-serif", fontWeight: 700 }}>
-              Island-Wide Delivery
+              Statewide Delivery
             </span>
           </div>
           <p

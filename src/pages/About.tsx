@@ -39,7 +39,7 @@ export default function About() {
               Our Story
             </span>
             <h2 className="text-white text-2xl sm:text-4xl leading-tight mb-6" style={playfair}>
-              Bringing the Yaard to your store.
+              Bringing the Yaad to your store.
             </h2>
             <div className="space-y-4 text-white/70 text-sm sm:text-base leading-relaxed" style={barlow}>
               <p>

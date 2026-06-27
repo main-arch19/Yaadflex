@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
 import { site } from '../siteConfig';
 import { InstagramIcon, FacebookIcon, TikTokIcon, WhatsAppIcon } from './SocialIcons';
 
@@ -36,7 +36,7 @@ export default function Footer() {
             className="mt-3 text-sm text-white/60 max-w-xs leading-relaxed"
             style={{ fontFamily: "'Barlow', sans-serif" }}
           >
-            {site.tagline}. Authentic Caribbean beverages & goods at wholesale pricing, delivered across all 5 boroughs.
+            {site.tagline}. Authentic Caribbean beverages & goods at wholesale pricing, delivered across all 5 boroughs and the tri-state.
           </p>
           <div className="mt-5 flex items-center gap-3">
             {socials.map(({ href, label: l, Icon }) => (
@@ -80,10 +80,6 @@ export default function Footer() {
             Get in touch
           </h3>
           <ul className="space-y-3 text-sm text-white/70" style={{ fontFamily: "'Barlow', sans-serif" }}>
-            <li className="flex items-start gap-3">
-              <MapPin className="w-4 h-4 mt-0.5 text-[#1B7A2B] shrink-0" />
-              <span>{site.address}</span>
-            </li>
             <li className="flex items-center gap-3">
               <Phone className="w-4 h-4 text-[#1B7A2B] shrink-0" />
               <a href={`tel:${site.phoneTel}`} className="hover:text-white transition-colors">
@@ -109,7 +105,7 @@ export default function Footer() {
           style={{ fontFamily: "'Barlow', sans-serif" }}
         >
           <span>© {new Date().getFullYear()} YaadFlexx. All rights reserved.</span>
-          <span className="uppercase tracking-[0.18em]">Bringing the Yaard to Your Store</span>
+          <span className="uppercase tracking-[0.18em]">Bringing the Yaad to Your Store</span>
         </div>
       </div>
     </footer>
