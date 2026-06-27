@@ -54,7 +54,7 @@ export default function Contact() {
         overline="Get in Touch"
         title={
           <>
-            Become a <span className="text-[#E8B500]">Stockist</span>
+            Become a <span className="text-[#E8B500]">Member</span>
           </>
         }
         subtitle="Tell us about your store and we'll get you set up with wholesale pricing and delivery across the five boroughs."
